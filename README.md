@@ -1,16 +1,13 @@
-### EX NO : 05
-### DATE  : 02.06.2022
-# <p align="center">Animal feeding Phase-II<p/>
-
+# Animal-Feeding-Phase-II
 ## Aim:
-To develop a animal feeding game Phase-2 using unity.
+To develop a animal feeding game-Phase-2 using unity.
 ## Algorithm:
 ### Random Animal Stampede
 ### Step 1: 
 In the Hierarchy, create an Empty object called “SpawnManager”
 ### Step 2: 
 Create a new script called “SpawnManager”, drag the script and attach it to the Spawn Manager in the hierarchy , and open it
-### Step 3: 
+### Step 3:
 Declare new public GameObject[ ] animalPrefabs;
 ### Step 4: 
 In the inspector assign the size as 3 , for each element drag the animals from prefabs folder into the array
@@ -33,7 +30,7 @@ For all the animal prefabs and food in th inspector (below the  layer ) drop dow
 
 ## Program:
 ### SPAWN MANAGER
-```c#
+```C#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -73,16 +70,16 @@ public class SpawnManager : MonoBehaviour
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 public class DetectCollider : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
-    {    
-    }
+    {}
+
     // Update is called once per frame
     void Update()
-    {  
-    }
+    {}
     private void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
@@ -92,8 +89,7 @@ public class DetectCollider : MonoBehaviour
 
 ```
 ## Output:
-![Screenshot (54)](https://user-images.githubusercontent.com/75235488/173235360-bd579ae8-dc6e-49e5-8430-74603c5c18fd.png)
+<img width = "60%" height = "50%" src = "https://user-images.githubusercontent.com/75235386/173307625-1df7bc1f-1ad4-4570-8c16-59ce56d38ca8.png">
 
 ## Result:
-
 Animal feeding game-Phase-2 using unity is developed successfully.
